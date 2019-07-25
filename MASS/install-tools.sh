@@ -36,8 +36,8 @@ fi
 
 # Download fastBPE
 if [ ! -d "$FASTBPE_DIR" ]; then
-  echo "Cloning fastBPE from GitHub repository..."
-  git clone https://github.com/glample/fastBPE
+  echo "Cloning fastBPE stochastic fork from GitHub repository..."
+  git clone https://github.com/BryceEakin/stochasticBPE.git
 fi
 
 # Compile fastBPE
